@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sign In — Serene Stays</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <a href="index.html" class="brand">
+        <div class="logo">SS</div>
+        <div>
+          <div style="font-weight:800">Serene Stays</div>
+          <div style="font-size:12px;color:var(--muted)">Sign In</div>
+        </div>
+      </a>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="rooms.html">Rooms</a>
+        <a href="booking.html">Booking</a>
+        <a href="signin.html">Sign In</a>
+        <a href="register.html">Register</a>
+      </nav>
+    </header>
+
+    <main style="display:flex; justify-content:center; align-items:center; min-height:60vh">
+      <section style="background:var(--card); padding:32px; border-radius:16px; box-shadow:var(--shadow); width:100%; max-width:400px">
+        <h2 style="margin-top:0; text-align:center">Sign In</h2>
+        <p style="color:var(--muted); text-align:center; margin-bottom:24px">Welcome back! Please sign in to your account.</p>
+
+        <form style="display:grid; gap:16px">
+          <div>
+            <label style="display:block; font-weight:700; margin-bottom:6px">Email address</label>
+            <input class="input" type="email" placeholder="Enter your email" />
+          </div>
+
+          <div>
+            <label style="display:block; font-weight:700; margin-bottom:6px">Password</label>
+            <input class="input" type="password" placeholder="Enter your password" />
+          </div>
+
+          <div style="display:flex; gap:8px; align-items:center;">
+            <a class="btn" href="#">Sign In</a>
+            <a class="btn secondary" href="register.html">Create Account</a>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">© Serene Stays — Sign In (static demo)</footer>
+  </div>
+</body>
+</html>
